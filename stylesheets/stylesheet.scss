@@ -13,7 +13,7 @@ html, body {
 
 body {
 	color: white;
-	height: 3000px;
+	height: 6000px;
 }
 
 .container {
@@ -24,7 +24,8 @@ body {
 	height:100%;
 }
 
-.galaxy_bg, .opaque, .stars_1, .stars_2{
+.galaxy_bg, .opaque, .stars_1, .stars_2, .stars_3, .stars_4, .stars_5,
+.stars_6, .clouds_1, .clouds_2, .clouds_3, .clouds_4{
 	position:absolute;
 }
 
@@ -68,3 +69,92 @@ body {
 	left:0;
 	top:0px;
 }
+
+.stars_3 {
+	background:url(../images/stars-1.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1000px;
+	height: 400px;
+	left:0;
+	top:0px;
+}
+
+.stars_4 {
+	background:url(../images/stars-2.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1600px;
+	height: 500px;
+	right:0;
+	top:0px;
+}
+
+.stars_5 {
+	background:url(../images/stars-1.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1600px;
+	height: 500px;
+	right:0;
+	top:300px;
+}
+
+.stars_6 {
+	background:url(../images/stars-1.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1600px;
+	height: 500px;
+	right:0;
+	top:0px;
+}
+
+.clouds_1 {
+	background:url(../images/clouds-1.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1600px;
+	height: 500px;
+	left:0;
+	top:200px;
+}
+
+.clouds_2 {
+	background:url(../images/clouds-2.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1000px;
+	height: 704px;
+	right:0;
+	top:0px;
+}
+
+.clouds_3 {
+	background:url(../images/clouds-3.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1000px;
+	height: 704px;
+	left:0;
+	top:500px;
+}
+
+.clouds_4 {
+	background:url(../images/clouds-4.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	color:white;
+	width:1000px;
+	height: 322px;
+	right:0;
+	top:600px;
+}
+

@@ -1,9 +1,16 @@
 init = function(){
       jarallax = new Jarallax();
 
-      jarallax.addAnimation('.galaxy_bg',[{progress: "00%", top:"0%"}, {progress: "100%", top: "-10%"}]);
+      jarallax.addAnimation('.galaxy_bg',[{progress: "00%", top:"0%"}, {progress: "100%", top: "-5%"}]);
       jarallax.addAnimation('.stars_1',[{progress: "0%", top:"1000px"}, {progress: "100%", top: "-5%"}]);
       jarallax.addAnimation('.stars_2',[{progress: "0%", top:"0px"}, {progress: "100%", top: "1000px"}]);
+      jarallax.addAnimation('.stars_3',[{progress: "0%", top:"0px"}, {progress: "100%", top: "50px"}]);
+      jarallax.addAnimation('.stars_5',[{progress: "0%", top:"300px"}, {progress: "100%", top: "500px"}]);
+      jarallax.addAnimation('.stars_6',[{progress: "0%", top:"3px"}, {progress: "100%", top: "70px"}]);
+      jarallax.addAnimation('.clouds_1',[{progress: "0%", top:"200px"}, {progress: "100%", top: "300px"}]);
+      jarallax.addAnimation('.clouds_2',[{progress: "0%", top:"0px"}, {progress: "100%", top: "200px"}]);
+      jarallax.addAnimation('.clouds_3',[{progress: "0%", top:"500px"}, {progress: "100%", top: "10px"}]);
+      jarallax.addAnimation('.clouds_4',[{progress: "0%", top:"600px"}, {progress: "100%", top: "300px"}]);
       /*
       jarallax.addAnimation('.stars_3',[{progress: "0%", top:"-5%"}, {progress: "100%", top: "90%"}]);
       jarallax.addAnimation('.stars_2',[{progress: "0%", top:"70%"}, {progress: "100%", top: "40%"}]);
