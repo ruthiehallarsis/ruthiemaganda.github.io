@@ -12,7 +12,6 @@ html, body {
 }
 
 body {
-	color: white;
 	height: 6000px;
 }
 
@@ -22,6 +21,15 @@ body {
 	position:fixed;
 	width:100%;
 	height:100%;
+}
+
+
+.loader{
+	background:green;
+	color:white;
+	font-size:30px;
+	margin:0px auto;
+	width: 300px;
 }
 
 .galaxy_bg, .opaque, .stars_1, .stars_2, .stars_3, .stars_4, .stars_5,
@@ -156,5 +164,9 @@ body {
 	height: 322px;
 	right:0;
 	top:600px;
+}
+
+.div1 {
+	opacity:0;
 }
 

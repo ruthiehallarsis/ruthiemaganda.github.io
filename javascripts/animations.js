@@ -1,3 +1,11 @@
+$(document).ready(function(){
+     $('body').show();
+});
+
+
+
+
+
 init = function(){
       jarallax = new Jarallax();
 
@@ -11,6 +19,7 @@ init = function(){
       jarallax.addAnimation('.clouds_2',[{progress: "0%", top:"0px"}, {progress: "100%", top: "200px"}]);
       jarallax.addAnimation('.clouds_3',[{progress: "0%", top:"500px"}, {progress: "100%", top: "10px"}]);
       jarallax.addAnimation('.clouds_4',[{progress: "0%", top:"600px"}, {progress: "100%", top: "300px"}]);
+      jarallax.addAnimation('.div1',[{progress: "0%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
       /*
       jarallax.addAnimation('.stars_3',[{progress: "0%", top:"-5%"}, {progress: "100%", top: "90%"}]);
       jarallax.addAnimation('.stars_2',[{progress: "0%", top:"70%"}, {progress: "100%", top: "40%"}]);
