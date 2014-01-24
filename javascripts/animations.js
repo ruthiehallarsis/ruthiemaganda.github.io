@@ -2,10 +2,6 @@ $(document).ready(function(){
      $('body').show();
 });
 
-
-
-
-
 init = function(){
       jarallax = new Jarallax();
 
@@ -19,7 +15,16 @@ init = function(){
       jarallax.addAnimation('.clouds_2',[{progress: "0%", top:"0px"}, {progress: "100%", top: "200px"}]);
       jarallax.addAnimation('.clouds_3',[{progress: "0%", top:"500px"}, {progress: "100%", top: "10px"}]);
       jarallax.addAnimation('.clouds_4',[{progress: "0%", top:"600px"}, {progress: "100%", top: "300px"}]);
-      jarallax.addAnimation('.div1',[{progress: "0%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
+
+      jarallax.addAnimation('.div1',[{progress: "0%", opacity:"0"}, {progress: "20%", opacity:"0"}]);
+      jarallax.addAnimation('.pogi',[{progress: "0%", opacity:"0"}, {progress: "45%", opacity:"0"}]);
+      jarallax.addAnimation('.pogi1',[{progress: "0%", opacity:"0"}, {progress: "70%", opacity:"0"}]);
+      jarallax.addAnimation('.div1',[{progress: "21%", opacity:"0"}, {progress: "45%", opacity:"1"}]);
+      jarallax.addAnimation('.div1',[{progress: "21%", left:"-1000px"}, {progress: "45%", left:"300px"}]);
+
+      jarallax.addAnimation('.pogi',[{progress: "60%", opacity:"0"}, {progress: "70%", opacity:"1"}]);
+      jarallax.addAnimation('.pogi1',[{progress: "71%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
+
       /*
       jarallax.addAnimation('.stars_3',[{progress: "0%", top:"-5%"}, {progress: "100%", top: "90%"}]);
       jarallax.addAnimation('.stars_2',[{progress: "0%", top:"70%"}, {progress: "100%", top: "40%"}]);
