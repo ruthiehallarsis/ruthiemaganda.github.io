@@ -26,6 +26,15 @@ init = function(){
       jarallax.addAnimation('.pogi',[{progress: "60%", opacity:"0"}, {progress: "70%", opacity:"1"}]);
       jarallax.addAnimation('.pogi1',[{progress: "71%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
 
+      jarallax.addAnimation('.pogi0',[{progress: "0%", opacity:"0"}, {progress: "45%", opacity:"0"}]);
+      jarallax.addAnimation('.pogi0',[{progress: "46%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
+
+      jarallax.addAnimation('.pogi2',[{progress: "0%", opacity:"0"}, {progress: "71%", opacity:"0"}]);
+      jarallax.addAnimation('.pogi2',[{progress: "80%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
+
+      jarallax.addAnimation('.pogi3',[{progress: "0%", opacity:"0"}, {progress: "80%", opacity:"0"}]);
+      jarallax.addAnimation('.pogi3',[{progress: "90%", opacity:"0"}, {progress: "100%", opacity:"1"}]);
+
       /*
       jarallax.addAnimation('.stars_3',[{progress: "0%", top:"-5%"}, {progress: "100%", top: "90%"}]);
       jarallax.addAnimation('.stars_2',[{progress: "0%", top:"70%"}, {progress: "100%", top: "40%"}]);
