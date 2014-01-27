@@ -59,8 +59,10 @@ init = function(){
       ]);
 
       jarallax.addAnimation('.nav_container',[
+            {progress: "0%", opacity:"0"},
             {progress: "60%", opacity:"0"},
-            {progress: "70%", opacity: "1"}
+            {progress: "70%", opacity: "1"},
+            {progress: "100%", opacity: "1"}
       ]);
 
 

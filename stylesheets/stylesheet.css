@@ -199,16 +199,28 @@ body {
         display: inline-block; }
       .nav_container .navigation li a.email {
         background: url(../images/icon-email.png); }
+        .nav_container .navigation li a.email:hover {
+          background: url(../images/icon-email-h.png); }
       .nav_container .navigation li a.linkedin {
         background: url(../images/icon-linkedin.png); }
+        .nav_container .navigation li a.linkedin:hover {
+          background: url(../images/icon-linkedin-h.png); }
       .nav_container .navigation li a.twitter {
         background: url(../images/icon-twitter.png); }
+        .nav_container .navigation li a.twitter:hover {
+          background: url(../images/icon-twitter-h.png); }
       .nav_container .navigation li a.pinterest {
         background: url(../images/icon-pinterest.png); }
+        .nav_container .navigation li a.pinterest:hover {
+          background: url(../images/icon-pinterest-h.png); }
       .nav_container .navigation li a.tumblr {
         background: url(../images/icon-tumblr.png); }
+        .nav_container .navigation li a.tumblr:hover {
+          background: url(../images/icon-tumblr-h.png); }
       .nav_container .navigation li a.youtube {
         background: url(../images/icon-youtube.png); }
+        .nav_container .navigation li a.youtube:hover {
+          background: url(../images/icon-youtube-h.png); }
 
 .ir {
   font: 0/0 a;

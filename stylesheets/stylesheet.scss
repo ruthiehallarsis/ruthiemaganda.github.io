@@ -233,21 +233,39 @@ body {
 		
 			a.email {
 				background:url(../images/icon-email.png);
+				&:hover{
+					background:url(../images/icon-email-h.png);
+				}
 			}
 			a.linkedin {
 				background:url(../images/icon-linkedin.png);
+				&:hover{
+					background:url(../images/icon-linkedin-h.png);
+				}
 			}
 			a.twitter {
 				background:url(../images/icon-twitter.png);
+				&:hover{
+					background:url(../images/icon-twitter-h.png);
+				}
 			}
 			a.pinterest {
 				background:url(../images/icon-pinterest.png);
+				&:hover{
+					background:url(../images/icon-pinterest-h.png);
+				}
 			}
 			a.tumblr {
 				background:url(../images/icon-tumblr.png);
+				&:hover{
+					background:url(../images/icon-tumblr-h.png);
+				}
 			}
 			a.youtube {
 				background:url(../images/icon-youtube.png);
+				&:hover{
+					background:url(../images/icon-youtube-h.png);
+				}
 			}
 		}
 
