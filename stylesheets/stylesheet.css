@@ -31,7 +31,8 @@ body {
 
 .galaxy_bg, .opaque, .stars_1, .stars_2, .stars_3, .stars_4, .stars_5,
 .stars_6, .clouds_1, .clouds_2, .clouds_3, .clouds_4, .div1,
-.r, .uthie, .swirl-1, .nav_container {
+.r, .uthie, .swirl-1, .nav_container, .ruthie_container, .ruthie_pic, .ruthie_wings,
+.ruthie_text, .black_opaque, .web_zealot {
   position: absolute; }
 
 .galaxy_bg {
@@ -177,10 +178,61 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: white;
-  width: 909px;
-  height: 411px;
+  width: 840px;
+  height: 380px;
   right: -1000px;
   top: 0%; }
+
+.ruthie_container {
+  width: 800px;
+  height: 826px;
+  left: -100%;
+  top: 15%;
+  opacity: 0; }
+  .ruthie_container .ruthie_pic {
+    background: url(../images/ruthie.png);
+    background-repeat: no-repeat;
+    background-position: top-right;
+    color: white;
+    width: 203px;
+    height: 826px;
+    left: 0px;
+    top: 0%; }
+  .ruthie_container .ruthie_wings {
+    background: url(../images/wings-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top-right;
+    color: white;
+    width: 436px;
+    height: 545px;
+    left: 110px;
+    top: -70px; }
+  .ruthie_container .ruthie_text {
+    background: url(../images/ruthie_text.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top-right;
+    color: white;
+    width: 255px;
+    height: 206px;
+    left: 340px;
+    top: 140px; }
+  .ruthie_container .black_opaque {
+    background: url(../images/black_opaque.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top-right;
+    color: white;
+    width: 555px;
+    height: 185px;
+    left: 150px;
+    top: 150px; }
+  .ruthie_container .web_zealot {
+    color: #e1e1e1;
+    font-family: "calibri";
+    left: 430px;
+    top: 185px; }
 
 .nav_container {
   left: 0px;
