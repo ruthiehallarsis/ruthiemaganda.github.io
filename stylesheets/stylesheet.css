@@ -329,8 +329,8 @@ html[xmlns] .clearfix {
 .pace .pace-activity::before,
 .pace .pace-activity::after {
     position: absolute;
-    top: 0px;
-    right: 0%;
+    bottom: 30px;
+    left: 50%;
     display: block;
     border: 5px solid #fff;
     border-radius: 50%;
@@ -339,8 +339,8 @@ html[xmlns] .clearfix {
 
 .pace .pace-activity::before {
     margin-left: -40px;
-    width: 100%;
-    height: 100%;
+    width: 80px;
+    height: 80px;
     border-right-color: rgba(0, 0, 0, .2);
     border-left-color: rgba(0, 0, 0, .2);
     -webkit-animation: pace-rotation 3s linear infinite;
