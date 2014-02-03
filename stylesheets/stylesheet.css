@@ -329,8 +329,8 @@ html[xmlns] .clearfix {
 .pace .pace-activity::before,
 .pace .pace-activity::after {
     position: absolute;
-    bottom: 30px;
-    left: 50%;
+    top: 0px;
+    right: 0%;
     display: block;
     border: 5px solid #fff;
     border-radius: 50%;
