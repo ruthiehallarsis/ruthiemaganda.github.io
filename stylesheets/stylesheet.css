@@ -296,7 +296,6 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%; }
 
-
 .pace.pace-inactive {
   display: none;
 }
@@ -331,7 +330,7 @@ html[xmlns] .clearfix {
   content: attr(data-progress-text);
   text-align: center;
   color: #fff;
-  background: #ffffff;
+  background: #9f9fff;
   border-radius: 50%;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -348,7 +347,7 @@ html[xmlns] .clearfix {
 
 .pace .pace-progress:after {
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid #9f9fff;
   content: ' ';
   display: block;
   position: absolute;
@@ -380,7 +379,7 @@ html[xmlns] .clearfix {
 
 .pace .pace-activity:before {
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid #9f9fff;
   content: ' ';
   display: block;
   position: absolute;
@@ -397,7 +396,7 @@ html[xmlns] .clearfix {
 
 .pace .pace-activity:after{
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid #9f9fff;
   content: ' ';
   display: block;
   position: absolute;
