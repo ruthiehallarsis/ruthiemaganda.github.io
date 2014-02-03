@@ -1,5 +1,7 @@
 $(document).ready(function(){
      $('body').show();
+     $('.loader').hide();
+
 });
 
 init = function(){
