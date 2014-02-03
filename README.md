@@ -1,2 +1,0 @@
-ruthiemaganda.github.io
-=======================
