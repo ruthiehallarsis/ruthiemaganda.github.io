@@ -1,10 +1,17 @@
 $(document).ready(function(){
-     $('body').show();
-     $('.loader').hide();
+    
 
 });
 
+$(window).load(function() {
+       $('body').show();
+       $('.scroll_down').show();
+});
+
 init = function(){
+
+
+
       jarallax = new Jarallax();
 
       jarallax.addAnimation('.galaxy_bg',[{progress: "00%", top:"0%"}, {progress: "100%", top: "-5%"}]);
@@ -72,6 +79,13 @@ init = function(){
             {progress: "81%", opacity: "0"},
             {progress: "90%", opacity: "1"},
             {progress: "100%", opacity: "1"},
+      ]);
+
+      jarallax.addAnimation('.scroll_down',[
+            {progress: "0%", opacity:"1"},
+            {progress: "3%", opacity:"1"},
+            {progress: "10%", opacity:"0"},
+            {progress: "100%", opacity: "0"},
       ]);
 
 
