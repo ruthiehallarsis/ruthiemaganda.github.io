@@ -1,12 +1,4 @@
-$(document).ready(function(){
-    
 
-});
-
-$(window).load(function() {
-       $('body').show();
-       $('.scroll_down').show();
-});
 
 init = function(){
 
