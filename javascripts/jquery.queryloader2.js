@@ -965,6 +965,7 @@ OverlayLoader.prototype.createOverlay = function () {
 			marginTop: "50px",
 			textAlign: "center",
 			marginLeft: "-50px",
+			fontFamily: "calibri",
 			color: "white"
 		}).appendTo(this.container);
 	}

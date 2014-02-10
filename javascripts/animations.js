@@ -1,9 +1,6 @@
 
 
 init = function(){
-
-
-
       jarallax = new Jarallax();
 
       jarallax.addAnimation('.galaxy_bg',[{progress: "00%", top:"0%"}, {progress: "100%", top: "-5%"}]);
@@ -78,12 +75,6 @@ init = function(){
             {progress: "3%", opacity:"1"},
             {progress: "10%", opacity:"0"},
             {progress: "100%", opacity: "0"},
-      ]);
-
-
-
-
-
-      
+      ]);    
      
 }
